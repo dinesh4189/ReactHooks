@@ -1,0 +1,70 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.newsWrapper {
+  width: 100%;
+}
+
+.newsContainer {
+  width: 100%;
+}
+
+.RouteLinks {
+  display: flex;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.RouteLinks > span {
+  display: flex;
+}
+
+.studentContainer {
+  width: 100%;
+}
+
+.studentTableContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.stuInput {
+  width: 70%;
+  display: flex;
+  height: 20px;
+}
+
+.delete {
+  background-image: url("./assert/delete-icon.svg");
+  width: 20px;
+  height: 30px;
+  border: 1px solid red;
+}
+
+.help {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ListItems-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.task.uncompleted {
+  background-color: yellow;
+  color: black;
+}
